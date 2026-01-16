@@ -25,6 +25,8 @@ audio_server_plugin = []
 io_kit_audio = []
 open_al = []
 core_midi = []
+use_coreaudio_ffi = []
+bindgen = []
 
 [package.metadata.docs.rs]
 all-features = true
