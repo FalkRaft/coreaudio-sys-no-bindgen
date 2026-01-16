@@ -17,7 +17,7 @@ default-features = false
 features = ["runtime"]
 
 [features]
-default = ["audio_toolbox", "audio_unit", "core_audio", "audio_server_plugin", "open_al", "core_midi"]
+default = ["audio_toolbox", "audio_unit", "core_audio", "audio_server_plugin", "open_al", "core_midi", "use_coreaudio_ffi"]
 audio_toolbox = []
 audio_unit = []
 core_audio = []
